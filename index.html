@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no,">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="WEB3SNSサービス「フラットシップ」の紹介サイトです。仮想通貨をクリーンに。">
+    <title>FLAT SHIP</title>
+    <link rel="stylesheet" type="text/css" media="all" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="sns_icon">
+        <ul class="pconly">
+            <li><a href=""><img src="img/common/telegram.png"></a></li>
+            <li><a href=""><img src="img/common/discord.png"></a></li>
+            <li><a href="https://twitter.com/flatshipWEB3"><img src="img/common/twitter.png"></a></li>
+            <li><a href=""><img src="img/common/youtube.png"></a></li>
+        </ul>
+    </div>
+
+    <header>
+        <h1>
+            <picture>
+                <source srcset="img/sp/goodtoearn.png" media="(max-width:1024px)" type="image/png">
+                <img src="img/pc/goodtoearn.png" alt="good to earn">
+            </picture>
+        </h1>
+        <div class="tree_wrap">
+            <picture>
+                <source srcset="img/sp/tree_sp.png" media="(max-width:600px)" type="image/png">
+                <img src="img/common/tree.png" alt="w" id="tree_menu">
+            </picture>
+        </div>
+
+        <div class="menu_wrap">
+            <a href="index.html"><img src="img/common/flatshipwt.png" class="logo"></a>
+            <div class="menu_wrap_inner">
+                <div class="sponly">
+                    <img src="img/common/menu.png" alt="watering can" onclick="toggleMenu()" id="hamburger">
+                    <div class="menu-content" id="menu" class="hidden">
+                        <div class="menu-content-link">
+                            <a href=""><img src="img/common/TOP.png"></a>
+                            <a href=""><img src="img/common/HOWTOPLAY.png"></a>
+                            <a href=""><img src="img/common/WHITEPAPER.png"></a>
+                            <a href=""><img src="img/common/LINKTREE.png"></a>
+                            <a href=""><img src="img/common/MINT.png"></a>
+                            <a href=""><img src="img/common/INFO.png"></a>
+                        </div>
+                        <div class="menu-content-sns">
+                            <a href=""><img src="img/common/telegram.png"></a>
+                            <a href=""><img src="img/common/discord.png"></a>
+                            <a href="https://twitter.com/flatshipWEB3"><img src="img/common/twitter.png"></a>
+                            <a href=""><img src="img/common/youtube.png"></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="pconly">
+                    <a href=""><img src="img/common/HOWTOPLAY.png"></a>
+                    <a href=""><img src="img/common/WHITEPAPER.png"></a>
+                    <a href=""><img src="img/common/LINKTREE.png"></a>
+                    <a href=""><img src="img/common/MINT.png"></a>
+                    <a href=""><img src="img/common/INFO.png"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- main -->
+    <div id="main">
+        <section id="register">
+            <div class="top_right"></div>
+            <div class="top_left"></div>
+            <picture class="toptext">
+                <source srcset="img/sp/top_text.png" media="(max-width:1024px)" type="image/png">
+                <img src="img/pc/top_text.png" alt="イイねを押しても、押されてもコインを獲得。SNSを楽しみながら、賢くお小遣い稼ぎをしよう！">
+            </picture>
+            <!--<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdgxfyeSkYSnutitiS-8mbW2Y_x9pNfxENMyFFLfayI4GymsA/formResponse">
+                <button type="submit" name="button" value="送信">-->
+            <form>
+                <button>
+                    <img src="img/common/hart.png" class="shake-crazy"></button>
+                <img src="img/common/register.png" class="register_title">
+                <p><b style="color:red;">※現在フォーム機能停止中</b></p>
+                <div class="name-email">
+                    <div class="your-name entry">
+                        <label for="name">YOUR NAME<small style="color:red;">※</small></label>
+                        <input id="name" type="text" name="entry.1275135145" placeholder="tanaka">
+                    </div>
+                    <div class="your-email entry">
+                        <label for="email">YOUR E-MAIL<small style="color:red;">※</small></label>
+                        <input id="email" type="text" name="entry.343994856" placeholder="example@mail.co.jp">
+                    </div>
+                </div>
+                <div class="sns-choice">
+                    <label>
+                        <input type="radio" name="sns" value="twitter"> twitter
+                    </label><br>
+                    <label>
+                        <input type="radio" name="sns" value="instagram"> instagram
+                    </label><br>
+                    <label>
+                        <input type="radio" name="sns" value="youtube"> youtube
+                    </label><br>
+                    <label>
+                        <input type="radio" name="sns" value="tumblr"> tumblr
+                    </label>
+                </div>
+                <div class="entry account-name">
+                    <label for="name">ACCOUNT NAME</label>
+                    <input id="name" type="text" name="entry.1725184977" placeholder="@tanaka_tadanoTENSAI">
+                </div>
+
+            </form>
+            <div class="register-message">
+                <img src="img/common/push.png">
+                <img src="img/common/line.png">
+                <img src="img/common/hinto.png" class="pconly">
+            </div>
+            <img src="img/pc/yajirushi.png" class="pconly yajirushi">
+        </section>
+
+        <section id="mockup">
+            <img src="img/common/mockup.png" class="mockup_title">
+            <img src="img/common/yotei.png" class="yotei">
+            <div class="container">
+                <div class="carousel">
+                    <div class="item a"><img src="img/common/mock1.png"></div>
+                    <div class="item b"><img src="img/common/mock2.png"></div>
+                    <div class="item c"><img src="img/common/mock3.png"></div>
+                    <div class="item d"><img src="img/common/mock1.png"></div>
+                    <div class="item e"><img src="img/common/mock2.png"></div>
+                    <div class="item f"><img src="img/common/mock3.png"></div>
+                </div>
+            </div>
+            <div class="next">Next</div>
+            <div class="prev">Prev</div>
+
+        </section>
+        <section id="loadmap">
+            <div class="under_right"></div>
+            <div class="under_left"></div>
+            <img src="img/common/coin.png">
+            <p>FLAT SHIP/SNS投稿/WEB3/SNSアプリ<br>FLAT SHIP NFT→カメラ、ペン？<br>likeでコインをget→してもされても<br></p>
+        </section>
+        <div class="loadmap"><img src="img/common/loadmap.jpg"></div>
+    </div>
+
+    <!-- footer -->
+    <footer class="cf">
+        <p id="copyright"><small>©2023 FLAT SHIP All rights reserved.</small></p>
+
+    </footer>
+    <script>
+        var carousel = $(".carousel"),
+            currdeg = 0;
+
+        $(".next").on("click", {
+            d: "n"
+        }, rotate);
+        $(".prev").on("click", {
+            d: "p"
+        }, rotate);
+
+        function rotate(e) {
+            if (e.data.d == "n") {
+                currdeg = currdeg - 60;
+            }
+            if (e.data.d == "p") {
+                currdeg = currdeg + 60;
+            }
+            carousel.css({
+                "-webkit-transform": "rotateY(" + currdeg + "deg)",
+                "-moz-transform": "rotateY(" + currdeg + "deg)",
+                "-o-transform": "rotateY(" + currdeg + "deg)",
+                "transform": "rotateY(" + currdeg + "deg)"
+            });
+        }
+
+    </script>
+
+    <script>
+        function toggleMenu() {
+            var body = document.body;
+            var menu = document.getElementById('menu');
+            var tree = document.getElementById('tree_menu');
+
+            menu.classList.toggle('hidden');
+            menu.classList.toggle('menu-visible');
+
+            tree.classList.toggle('hidden_tree');
+            tree.classList.toggle('menu-visible_tree');
+
+            if (body.style.overflow === 'hidden') {
+                body.style.overflow = '';
+            } else {
+                body.style.overflow = 'hidden';
+            }
+        }
+
+    </script>
+</body>
+
+</html>
