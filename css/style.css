@@ -620,6 +620,19 @@ footer {
     left: 0;
 }
 
+/* info
+   ========================================================================== */
+#info {
+    position: relative;
+    background: #A8A8A8;
+    padding-bottom: 100px;
+}
+
+#info div p {
+    margin: 0;
+}
+
+
 
 /* smarphone
    ========================================================================== */
@@ -713,6 +726,7 @@ footer {
         width: 50%;
         box-shadow: 5px 5px 0px rgb(0, 0, 0);
         margin: 0 10px;
+        z-index: 1000;
     }
 
     .account-name input {
