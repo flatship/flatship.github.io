@@ -729,6 +729,10 @@ footer {
         z-index: 1000;
     }
 
+    .sns-choice label input {
+        z-index: 1000;
+    }
+
     .account-name input {
         width: auto;
         margin: 0 auto;
