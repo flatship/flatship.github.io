@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no,">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="WEB3SNSサービス「フラットシップ」の紹介サイトです。仮想通貨をクリーンに。">
+    <title>FLAT SHIP</title>
+    <link rel="stylesheet" type="text/css" media="all" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="sns_icon">
+        <ul class="pconly">
+            <li><a href=""><img src="img/common/telegram.png"></a></li>
+            <li><a href=""><img src="img/common/discord.png"></a></li>
+            <li><a href="https://twitter.com/flatshipWEB3"><img src="img/common/twitter.png"></a></li>
+            <li><a href=""><img src="img/common/youtube.png"></a></li>
+        </ul>
+    </div>
+
+    <header>
+        <h1>
+            <picture>
+                <source srcset="img/sp/goodtoearn.png" media="(max-width:1024px)" type="image/png">
+                <img src="img/pc/goodtoearn.png" alt="good to earn">
+            </picture>
+        </h1>
+        <div class="tree_wrap">
+            <picture>
+                <source srcset="img/sp/tree_sp.png" media="(max-width:600px)" type="image/png">
+                <img src="img/common/tree.png" alt="w" id="tree_menu">
+            </picture>
+        </div>
+
+        <div class="menu_wrap">
+            <a href="index.html"><img src="img/common/flatshipwt.png" class="logo"></a>
+            <div class="menu_wrap_inner">
+                <div class="sponly">
+                    <img src="img/common/menu.png" alt="watering can" onclick="toggleMenu()" id="hamburger">
+                    <div class="menu-content" id="menu" class="hidden">
+                        <div class="menu-content-link">
+                            <a href=""><img src="img/common/TOP.png"></a>
+                            <a href=""><img src="img/common/HOWTOPLAY.png"></a>
+                            <a href=""><img src="img/common/WHITEPAPER.png"></a>
+                            <a href=""><img src="img/common/LINKTREE.png"></a>
+                            <a href=""><img src="img/common/MINT.png"></a>
+                            <a href=""><img src="img/common/INFO.png"></a>
+                        </div>
+                        <div class="menu-content-sns">
+                            <a href=""><img src="img/common/telegram.png"></a>
+                            <a href=""><img src="img/common/discord.png"></a>
+                            <a href="https://twitter.com/flatshipWEB3"><img src="img/common/twitter.png"></a>
+                            <a href=""><img src="img/common/youtube.png"></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="pconly">
+                    <a href=""><img src="img/common/HOWTOPLAY.png"></a>
+                    <a href=""><img src="img/common/WHITEPAPER.png"></a>
+                    <a href=""><img src="img/common/LINKTREE.png"></a>
+                    <a href=""><img src="img/common/MINT.png"></a>
+                    <a href=""><img src="img/common/INFO.png"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- main -->
+    <div id="main">
+        <section id="info">
+            <div>
+                <p>2023.8.13 - サイトオープン</p>
+                <p>2023.8.15 - ロードマップ修正</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- footer -->
+    <footer class="cf">
+        <p id="copyright"><small>©2023 FLAT SHIP All rights reserved.</small></p>
+
+    </footer>
+    <script>
+        function toggleMenu() {
+            var body = document.body;
+            var menu = document.getElementById('menu');
+            var tree = document.getElementById('tree_menu');
+
+            menu.classList.toggle('hidden');
+            menu.classList.toggle('menu-visible');
+
+            tree.classList.toggle('hidden_tree');
+            tree.classList.toggle('menu-visible_tree');
+
+            if (body.style.overflow === 'hidden') {
+                body.style.overflow = '';
+            } else {
+                body.style.overflow = 'hidden';
+            }
+        }
+
+    </script>
+</body>
+
+</html>
