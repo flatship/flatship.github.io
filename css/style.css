@@ -797,6 +797,10 @@ footer {
         transform: rotateY(300deg) translateZ(200px);
     }
 
+    form button {
+        z-index: 1000;
+    }
+
     .next,
     .prev {
         z-index: 1000;
